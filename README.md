@@ -17,7 +17,7 @@ You can login to the router's web interface and search "gl-ble" in the "Plug-ins
 Connect the Arduino board to computer, open the Arduino IDE and then set the Arduino serial COM. After that, copy the file `arduino_sensors.cpp` to the IDE, upload it to the Arduino board. When finished, a BLE device "Arduino_Sensors" will be brodcasted. You can easily check it with the Bluetooth of your smartphone.
 - **Set The Router**  
 [Get into the router's SSH terminal](https://docs.gl-inet.com/en/3/app/ssh/), copy the file `arduino_sensors.sh` to the router. Add execution permission and run the script with command `chmod +x arduino_sensors.sh & sh arduino_sensors.sh`.
-## Examples
+## Demonstrations
 If everything is OK, you can see the sensors' data printed in the SSH terminal like that.
 ![](https://github.com/YaoSir/Demonstration/blob/master/images/sensor_data.JPG)
 Login to the [cloud](https://www.goodcloud.xyz/#/login), you will see the sensor data send from your router.
