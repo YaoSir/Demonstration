@@ -18,13 +18,20 @@ Connect the Arduino board to computer, open the Arduino IDE and then set the Ard
 - **Set The Router**  
 [Get into the router's SSH terminal](https://docs.gl-inet.com/en/3/app/ssh/), copy the file `arduino_sensors.sh` to the router. Add execution permission and run the script with command `chmod +x arduino_sensors.sh & sh arduino_sensors.sh`.
 ## Demonstrations
-Insert LED as the picture shown, it will flash every time we get sensor data from the arduino board. Connect the board to micro USB power adapter.
-![](https://github.com/YaoSir/Demonstration/blob/master/images/arduino.jpg)
-Plug in the GL-X750 power, connect it to the network either in 4G LTE or wan port. Keep the distance between router and arduino board within 30 meters. Then SSH to the router and excute the `arduino_sensor.sh`.
-![](https://github.com/YaoSir/Demonstration/blob/master/images/arduino_x750.jpg)
-If everything is OK, you can see the sensors' data printed in the SSH terminal like that.
-![](https://github.com/YaoSir/Demonstration/blob/master/images/sensor_data.JPG)
-Login to the [cloud](https://www.goodcloud.xyz/#/login), you will see the sensor data send from your router.
+Insert LED to the arduino board as the picture shown, it will flash every time we get sensor data from the arduino board. Connect the board to micro USB power adapter.  
+
+![](https://github.com/YaoSir/Demonstration/blob/master/images/arduino.jpg)  
+
+Plug in the GL-X750 power, connect it to the network either in 4G LTE or wan port. Keep the distance between router and arduino board within 30 meters. Then SSH to the router and excute the `arduino_sensor.sh`.  
+
+![](https://github.com/YaoSir/Demonstration/blob/master/images/arduino_x750.jpg)  
+
+If everything is OK, you can see the sensors' data printed in the SSH terminal like that.  
+
+![](https://github.com/YaoSir/Demonstration/blob/master/images/sensor_data.JPG)  
+
+Login to the [cloud](https://www.goodcloud.xyz/#/login), you will see the sensor data send from your router.  
+
 ![](https://github.com/YaoSir/Demonstration/blob/master/images/cloud.JPG) 
 ## Related Links
 - [How to set cloud](https://docs.gl-inet.com/en/3/app/cloud/)
