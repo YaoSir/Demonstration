@@ -1,6 +1,7 @@
 #!/bin/sh
 . /usr/share/libubox/jshn.sh
 bletool on
+sleep 2
 bletool connect e0:50:41:45:7b:d2 0 1
 while true
 do
