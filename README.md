@@ -12,7 +12,7 @@ For Arduino NANO 33 BLE SENSE, install following Libraries on your Arduino IDE.
 [How to install and use Arduino IDE](https://www.arduino.cc/en/Main/Software)
 `ArduinoBLE, Arduino_APDS9960, Arduino_HTS221, Arduino_LPS22HB, Arduino_LSM9DS1`
 For GL-X750 Spitz or GL-S1300 Convexa-S, install the BLE packages `gl-ble`.  
-You can login to the router's web interface and search "gl-ble" in the "Plug-ins" page, click "install" to install the package. Or just type command `opkg update & opkg install gl-ble` in the router's SSH terminal.
+You can login to the router's web interface and search "gl-ble" in the "Plug-ins" page, click "install" to install the package. Or just type command `opkg update && opkg install gl-ble` in the router's SSH terminal.
 - **Set Arduino Board**  
 Connect the Arduino board to computer, open the Arduino IDE and then set the Arduino serial COM. After that, copy the file `arduino_sensors.cpp` to the IDE, upload it to the Arduino board. When finished, a BLE device "Arduino_Sensors" will be brodcasted. You can easily check it with the Bluetooth of your smartphone.
 - **Set The Router**  
